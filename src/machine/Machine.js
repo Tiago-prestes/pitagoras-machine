@@ -4,7 +4,7 @@ import { MainContainer } from './style'
 export const Machine = () => {
     return (
         <MainContainer>
-            Machine Pagede
+            Machine Page pitagoras
         </MainContainer>
     )
 }

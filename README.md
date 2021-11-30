@@ -54,7 +54,7 @@ $ yarn start or npm start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/tiago-prestes" target="_blank">{{Tiago Prestes}}</a>
+Made with :heart: by <a href="https://github.com/tiago-prestes" target="_blank">Tiago Prestes</a>
 
 &#xa0;
 

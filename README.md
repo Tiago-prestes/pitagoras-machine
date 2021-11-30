@@ -1,8 +1,6 @@
 
 <h1 align="center">Cromai Challenge</h1>
 
-<hr> -->
-
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;

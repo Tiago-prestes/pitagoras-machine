@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
-    margin-top: 10vh;
+    padding-top: 6em;
 `
 
 export const FormContainer = styled.form`
@@ -14,9 +13,10 @@ export const FormContainer = styled.form`
     align-items: center;
     background-color: #2196f3;
     border-radius: 8px;
-    width: 25vw;
-    height: 25vw;
+    width: 25em;
+    height: 25em;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        
         input{
             height: 30px;
             width: 15vw;
@@ -36,7 +36,6 @@ export const FormContainer = styled.form`
             }  
             :active {
                 background-color: #6ec6ff;
-                /* transform: translateY(2px); */
             }
         }
 

@@ -7,7 +7,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{tiago-prestes}}" target="_blank">Author</a>
+  <a href="https://github.com/tiago-prestes" target="_blank">Author</a>
 </p>
 
 <br>
@@ -54,7 +54,7 @@ $ yarn start or npm start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{tiago-prestes}}" target="_blank">{{Tiago Prestes}}</a>
+Made with :heart: by <a href="https://github.com/tiago-prestes" target="_blank">{{Tiago Prestes}}</a>
 
 &#xa0;
 

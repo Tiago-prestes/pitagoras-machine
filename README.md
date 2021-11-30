@@ -37,7 +37,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/medcloud-challenge
+$ git clone https://github.com/Tiago-prestes/pitagoras-machine.git
 
 # Access
 $ cd pitagoras-machine

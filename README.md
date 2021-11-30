@@ -15,7 +15,7 @@
 ## :dart: About ##
 
 Desenvolvimento da interface de uma calculadora capaz de calcular a relação entre os
-lados de um triângulo retângulo.
+lados de um triângulo retângulo e identificar um triângulo retângulo.
 
 ## :rocket: Technologies ##
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import toast, { Toaster } from 'react-hot-toast'
-import { catetoFunc, hipoFunc } from '../constants/functions'
+import { catetoFunc, errorFalse, errorNotTriangle, hipoFunc } from '../constants/functions'
 import { FormContainer, MainContainer, TitleContainer } from './style'
 
 export const Machine = () => {
@@ -8,42 +8,42 @@ export const Machine = () => {
     const [catetoB, setCatetoB] = useState()
     const [hipo, setHipo] = useState()
 
-    const teorema = () => {
+    const theorem = () => {
         const ca = Number(catetoA)
         const cb = Number(catetoB)
         const hp = Number(hipo)
 
         if (!ca && !cb && !hp) {
-            toast.error('Complete dois campos, com valores maior que 0.', { duration: 6000 })
+            errorFalse()
         } else if (ca && cb && hp) {
             toast.error('Complete apenas dois campos, com valores maior que 0.', { duration: 6000 })
         } else if (ca > 0 && cb > 0 && !hp) {
             hipoFunc(ca, cb)
         } else if (!ca && cb > 0 && hp > 0) {
             if (cb >= hp) {
-                toast.error('Ops... Esse não é um triângulo retângulo.', { duration: 6000 })
+                errorNotTriangle()
             } else {
                 catetoFunc(hp, cb)
             }
         } else if (!cb && ca > 0 && hp > 0) {
             if (ca >= hp) {
-                toast.error('Ops... Esse não é um triângulo retângulo.', { duration: 6000 })
+                errorNotTriangle()
             } else {
                 catetoFunc(hp, ca)
             }
         } else if (ca) {
-            toast.error('Complete no mínimo dois campos, com valores maior que 0', { duration: 6000 })
+            errorFalse()
         } else if (cb) {
-            toast.error('Complete no mínimo dois campos, com valores maior que 0', { duration: 6000 })
+            errorFalse()
         } else if (hp) {
-            toast.error('Complete no mínimo dois campos, com valores maior que 0', { duration: 6000 })
+            errorFalse()
         }
 
     }
 
     const onSubmitForm = (event) => {
         event.preventDefault()
-        teorema()
+        theorem()
     }
 
     const handlechangeA = (event) => {

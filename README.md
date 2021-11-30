@@ -40,7 +40,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/medcloud-challenge
 
 # Access
-$ cd medcloud-challenge  - to access Frontend (cd Frontend) or to access Backend (cd Backend)
+$ cd pitagoras-machine
 
 # Install dependencies
 $ yarn or npm

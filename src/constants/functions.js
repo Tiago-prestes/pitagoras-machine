@@ -12,3 +12,11 @@ export const hipoFunc = (num1, num2) => {
     const area = (num1 * num2) / 2
     toast.success(`Valor da hipotenusa é ${resultHipo.toFixed(2)}. E sua área é ${area.toFixed(2)}u.a.`, { duration: 8000 })
 }
+
+export const errorFalse = () => {
+    toast.error('Complete no mínimo dois campos, com valores maior que 0', { duration: 6000 })
+}
+
+export const errorNotTriangle = () => {
+    toast.error('Ops... Esse não é um triângulo retângulo.', { duration: 6000 })
+}

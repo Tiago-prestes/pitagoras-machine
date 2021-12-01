@@ -16,6 +16,8 @@
 Desenvolvimento da interface de uma calculadora capaz de calcular a relação entre os
 lados de um triângulo retângulo e identificar um triângulo retângulo.
 
+https://pitagorasmachine.surge.sh/
+
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
